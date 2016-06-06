@@ -1,8 +1,8 @@
 <?php
-defined('DBX_SERVER') ? null : define("DBX_SERVER", "localhost");
-defined('DBX_USER')   ? null : define("DBX_USER", "root");
+defined('DBX_SERVER') ? null : define("DBX_SERVER", "");
+defined('DBX_USER')   ? null : define("DBX_USER", "");
 defined('DBX_PASS')   ? null : define("DBX_PASS", "");
-defined('DBX_NAME')   ? null : define("DBX_NAME", "tubapp");
+defined('DBX_NAME')   ? null : define("DBX_NAME", "");
 
 
 class MySQLDatabase {
